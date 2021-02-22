@@ -31,19 +31,11 @@ def start_turtle():
     timmy.setpos(-300, -300)
 
 
-def new_line_left():
-    timmy.penup()
-    timmy.left(90)
-    timmy.forward(50)
-    timmy.left(90)
-    timmy.forward(50)
-
-
-def new_line_right():
-    timmy.penup()
-    timmy.right(90)
-    timmy.forward(50)
-    timmy.right(90)
+def new_line():
+    y = timmy.ycor() + 50
+    x = timmy.xcor()
+    timmy.left(180)
+    timmy.setposition(x, y)
     timmy.forward(50)
 
 
@@ -51,17 +43,12 @@ def start_circuit():
     for _ in range(12):
         make_dot()
 
-    new_line_left()
-
-    for _ in range(12):
-        make_dot()
-    
-    new_line_right()
+    new_line()
 
 
 start_turtle()
 
-for _ in range(6):
+for _ in range(12):
     start_circuit()
 
 
