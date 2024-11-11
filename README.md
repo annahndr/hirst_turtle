@@ -12,4 +12,4 @@ Coding exercise from Angela Yu's course *100 days of code*.
 
 ### Images
 
-![Hirst Turtle](./images/hirst_turtle1)
+![Hirst Turtle](./images/hirst_turtle1.png)
