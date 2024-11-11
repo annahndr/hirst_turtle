@@ -9,3 +9,7 @@ To run hirst painting:
 - `python3 hirst.py`
 
 Coding exercise from Angela Yu's course *100 days of code*.
+
+### Images
+
+![Hirst Turtle](./images/hirst_turtle1)
